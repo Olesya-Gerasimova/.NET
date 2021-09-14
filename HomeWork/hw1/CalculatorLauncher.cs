@@ -21,9 +21,16 @@ namespace hw1
                 return WrongArgFormat;
             }
 
-            var result = new Calculator().Calculate(operation, val1, val2);
+            try
+            {
+                var result = new Calculator().Calculate(operation, val1, val2);
+                Console.WriteLine($"Result is: {result}");
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Can't divide to zero! Invalid arguments.");
+            }
 
-            Console.WriteLine($"Result is: {result}");
             return 0;
         }
 
