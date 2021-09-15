@@ -1,0 +1,1 @@
+[![codecov](https://codecov.io/gh/Olesya-Gerasimova/.NET/branch/feature/hw1/graph/badge.svg?token=KODG4GQTWT)](https://codecov.io/gh/Olesya-Gerasimova/.NET)
