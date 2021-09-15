@@ -6,6 +6,7 @@ namespace hw1
     {
         private const int WrongArgumentLength = 1;
         private const int WrongArgFormat = 2;
+        private const int WrongCalculation = 3;
 
         public int Launch(string[] args)
         {
@@ -29,6 +30,7 @@ namespace hw1
             catch (DivideByZeroException)
             {
                 Console.WriteLine("Can't divide to zero! Invalid arguments.");
+                return WrongCalculation;
             }
 
             return 0;
@@ -51,17 +53,14 @@ namespace hw1
 
         private static bool CheckArgLength(string[] args)
         {
-            if (args.Length >= 3)
+            if (args.Length > 3)
             {
-                return false;
-            }
-
-            Console.WriteLine(
-                $"The program requires 3 "
-                + $"CLI arguments but {args.Length} provided");
-            {
+                Console.WriteLine(
+                    $"The program requires 3 "
+                    + $"CLI arguments but {args.Length} provided");
                 return true;
             }
+            return false;
         }
     }
 }
