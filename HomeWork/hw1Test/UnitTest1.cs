@@ -42,6 +42,13 @@ namespace hw1Test
             Assert.AreEqual(expectedResult, calculated);
         }
 
+        [TestCase]
+        public void Test_Incorrect_Operation_Calculator()
+        {
+            var calculated = _calculator.Calculate("T", 2, 2);
+            Assert.AreEqual(0, calculated);
+        }
+
         [TestCase(-14, 2, -7)]
         [TestCase(6, 2, 3)]
         [TestCase(-16, -8, 2)]
