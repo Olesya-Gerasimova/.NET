@@ -16,13 +16,16 @@ module public CalculatorOperations =
     let Divide = "/"
 
     [<Literal>]
-    let NotIntegerErrorMassage = "Argument is not numbers or  long"
+    let NotIntegerErrorMassage = "exception: The argument is not integer type"
+    
+    [<Literal>]
+    let DivideByZero = "exception: Division by zero"
 
     [<Literal>]
-    let OperationErrorMassage = "Operation is not correct"
+    let OperationErrorMassage = "exception: Operation is not correct"
 
     [<Literal>]
-    let ArgumentErrorMassage = "wrong number of arguments"
+    let ArgumentErrorMassage = "exception: wrong number of arguments"
 
     [<Literal>]
     let Ok_Code = 0
