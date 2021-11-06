@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>WebApp</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="CalculatorOperations.fs" />
+        <Compile Include="Calculator.fs" />
+        <Compile Include="Handlers\Handler.fs" />
+        <Compile Include="Startup.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Giraffe" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>

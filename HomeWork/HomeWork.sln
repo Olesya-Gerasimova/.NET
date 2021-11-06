@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw1Test", "hw1Test\hw1Test.
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "hw3", "hw3\hw3.fsproj", "{14354CA6-CE89-4F5B-9326-BFEC82501552}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebApp", "hw6\WebApp\WebApp.fsproj", "{5525E60B-D90E-4206-B292-69BD00B9190F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppTests", "hw6\WebAppTests\WebAppTests.csproj", "{AAC122C9-D31A-480E-943B-FAFA9C54F7FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{14354CA6-CE89-4F5B-9326-BFEC82501552}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14354CA6-CE89-4F5B-9326-BFEC82501552}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14354CA6-CE89-4F5B-9326-BFEC82501552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5525E60B-D90E-4206-B292-69BD00B9190F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5525E60B-D90E-4206-B292-69BD00B9190F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5525E60B-D90E-4206-B292-69BD00B9190F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5525E60B-D90E-4206-B292-69BD00B9190F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC122C9-D31A-480E-943B-FAFA9C54F7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC122C9-D31A-480E-943B-FAFA9C54F7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC122C9-D31A-480E-943B-FAFA9C54F7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC122C9-D31A-480E-943B-FAFA9C54F7FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
