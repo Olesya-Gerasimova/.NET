@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SolutionRoot CoveredStatements="75" TotalStatements="78" CoveragePercent="96" ReportType="Xml" DotCoverVersion="2021.2.1">
+  <Project Name="hw1" CoveredStatements="43" TotalStatements="46" CoveragePercent="93">
+    <Namespace Name="hw1" CoveredStatements="43" TotalStatements="46" CoveragePercent="93">
+      <Type Name="Calculator" CoveredStatements="9" TotalStatements="9" CoveragePercent="100">
+        <Method Name="Calculate(string,int,int):int" CoveredStatements="9" TotalStatements="9" CoveragePercent="100" />
+      </Type>
+      <Type Name="CalculatorLauncher" CoveredStatements="34" TotalStatements="34" CoveragePercent="100">
+        <Method Name="CheckArgLength(string[]):bool" CoveredStatements="7" TotalStatements="7" CoveragePercent="100" />
+        <Method Name="Launch(string[]):int" CoveredStatements="18" TotalStatements="18" CoveragePercent="100" />
+        <Method Name="TryParseOrQuit(string,out int):bool" CoveredStatements="9" TotalStatements="9" CoveragePercent="100" />
+      </Type>
+      <Type Name="Program" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+        <Method Name="Main(string[]):int" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+      </Type>
+    </Namespace>
+  </Project>
+  <Project Name="hw1Test" CoveredStatements="32" TotalStatements="32" CoveragePercent="100">
+    <Namespace Name="hw1Test" CoveredStatements="32" TotalStatements="32" CoveragePercent="100">
+      <Type Name="Tests" CoveredStatements="32" TotalStatements="32" CoveragePercent="100">
+        <Method Name="CalculatorLauncher_Divide_By_Zero():void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="CalculatorLauncher_Valid_Arguments(string[],int):void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="Setup():void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="Test_Addition_Calculator(int,int,int):void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="Test_Divide_Calculator(int,int,int):void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="Test_Incorrect_Operation_Calculator():void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="Test_Minus_Calculator(int,int,int):void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="Test_Multiply_Calculator(int,int,int):void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+      </Type>
+    </Namespace>
+  </Project>
+</SolutionRoot>
