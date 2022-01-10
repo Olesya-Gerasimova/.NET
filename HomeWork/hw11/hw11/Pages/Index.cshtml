@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Калькулятор</h1>
+    <p>Введите математическое выражение, содержащее только операции +, -, *, / и скобки для расставления приоритетов.</p>
+
+    <form asp-area="" asp-page="Calculator" method="get">
+        <input type="text" name="expression">
+        <input type="submit" value="Посчитать">
+    </form>
+</div>
